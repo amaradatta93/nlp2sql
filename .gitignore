@@ -223,5 +223,6 @@ venv.bak/
 pyvenv.cfg
 pip-selfcheck.json
 key.txt
+cred.json
 
 # End of https://www.gitignore.io/api/python,pycharm,virtualenv,pycharm+all
