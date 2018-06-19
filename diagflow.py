@@ -25,7 +25,7 @@ def extract_parameter():
     # date = response['parameters']['date']
     date = str(response['parameters']['date-period'])
     fields = response['parameters']['fields']
-    sql_command = 'select ' + aggregate + ' ' + command + ' of ' + ' from ' + fields + ' where ' + str(date)
+    sql_command = str(command) + ' ' + aggregate + ' ' + ' from ' + fields + ' where ' + str(date)
     print(sql_command)
 
 
